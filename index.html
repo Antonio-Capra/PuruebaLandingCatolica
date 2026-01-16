@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap');
         
         :root {
             --azul-oscuro: #1e5799;
@@ -18,10 +19,11 @@
             --azul-claro: #7db9e8;
             --azul-mas-claro: #2989d8;
             --blanco: #ffffff;
+            --font-barlow-condensed: 'Barlow Condensed', sans-serif;
         }
         
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: var(--font-barlow-condensed);
             margin: 0;
             padding: 0;
         }
@@ -175,7 +177,7 @@
                     <button className="fixed top-6 right-6 z-50 glassmorphism text-white px-5 py-2.5 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2 group"
                         style={{borderColor: 'var(--azul-mas-claro)'}}>
                         <i className="fas fa-user-circle text-lg" style={{color: 'var(--azul-claro)'}}></i>
-                        <span className="font-semibold text-sm hidden sm:inline">Login</span>
+                        <span className="font-semibold text-sm hidden sm:inline">Admin</span>
                         <i className="fas fa-chevron-right text-xs group-hover:translate-x-1 transition-transform duration-300"></i>
                     </button>
 
@@ -185,7 +187,7 @@
                         <i className="fas fa-headset text-xl group-hover:scale-110 transition-transform duration-300" style={{color: 'var(--azul-claro)'}}></i>
                         <span className="absolute right-full mr-4 glassmorphism text-white px-4 py-2 rounded-lg text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-xl"
                             style={{borderColor: 'var(--azul-medio)'}}>
-                            ¿Necesitas ayuda?
+                            Cruzados
                         </span>
                     </button>
 
