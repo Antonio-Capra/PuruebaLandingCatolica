@@ -1,0 +1,29 @@
+{
+  "name": "landing-page-uc",
+  "version": "1.0.0",
+  "description": "Landing Page moderna para Universidad Católica vs Deportes Concepción",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "dev": "python3 -m http.server 8080",
+    "preview": "echo 'Abriendo navegador...' && python3 -m http.server 8080"
+  },
+  "keywords": [
+    "landing-page",
+    "react",
+    "tailwind",
+    "universidad-catolica",
+    "deportes"
+  ],
+  "author": "Frontend Senior Developer",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
